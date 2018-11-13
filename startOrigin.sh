@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Start a webserver on port 80
+# Start a webserver on port 80 (it needs sudo because port < 1024)
 # Allow CORS *
 # Set mag-age 3s
 
