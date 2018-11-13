@@ -26,8 +26,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 # Create 2 renditions from a TS input stream
-# 854x480@30fps 1000Kbps (+ Overlay)
-# 640x360@30fps 500Kbps (+ Overlay)
+# 854x480@30fps 1000Kbps 1 Kf / 2s (+ Overlay)
+# 640x360@30fps 500Kbps 1kf / 2s (+ Overlay)
 
 echo "Starting transcoder"
 ffmpeg -hide_banner -y \
