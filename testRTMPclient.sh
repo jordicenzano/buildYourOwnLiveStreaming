@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Generates bars + tone locally for testing
+
 DURATION_S=2592000 #1 month
 
 ffmpeg -f lavfi -re -i smptebars=duration=$DURATION_S:size=1280x720:rate=30 \
