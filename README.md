@@ -30,4 +30,4 @@ sudo npm install -g node-static
 - If you configure a CDN on top of your origin then you should use: `http://YOUR-DOMAIN/playlist.m3u8`
 
 ## Slides
-Here you can find the slides I used for the presentation: TODO LINK
+Here you can find the slides I used for the presentation: [buildyourownlivestreaming](https://slides.com/jordicenzano/buildyourownlivestreaming)
